@@ -4,11 +4,17 @@ body{
     margin: 0;
 }
 
+main{
+    width: 80%;
+    margin: auto;
+}
+
 .hero{
     background-image: url(/css/imagensCSS/bg-3.jpg);  
     height: 500px;
     background-position: right center;
     background-size: cover;
+    border-top: 1px solid transparent;
 }
 
 .hero-content{
@@ -22,9 +28,31 @@ body{
     text-shadow: 3px 3px 2px #333;
 }
 
-main{
-    width: 80%;
-    margin: auto;
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+.hero nav ul{ 
+    text-align: right;
+    margin: 10px 35px 0 0;
+}
+
+.hero nav a{
+    background: rgba(0, 0, 0, 0.3);
+    padding: 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;    
+}
+
+.hero nav a:hover{
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .content-section{
@@ -38,6 +66,7 @@ main{
 	padding: 10px;
 	background: #a2a39e
 }
+
 .content-header h2{
     margin:0;
 }
@@ -51,3 +80,4 @@ main{
 	background: #6b6c68;
     line-height: 80px;
 }
+
