@@ -9,7 +9,29 @@
         <meta name="keywords" content="html5, tecnologia">
         
         <style>
-            
+            body{
+                font-family: sans-serif;
+            }
+
+            table{
+                border-collapse: collapse;
+                /* Une as bordas das celulas */
+                width: 80%;
+                margin: auto;
+                background: beige;
+            }
+
+            td{
+                border: 1px solid black;
+                text-align: center;
+                padding: 15px;
+                
+            }
+
+            th{
+                background: rgb(87, 65, 65);
+                border: 2px solid chocolate;
+            }
         </style>
     </head>
     <body>
@@ -27,48 +49,52 @@
             </thead>
 
             <tfoot>
-
+                <tr>
+                    <td colspan="3">Valores sujeitos a alteração sem previo aviso</td>
+                    <!-- colspan faz saber quantas colonas corresponde -->
+                </tr>
             </tfoot>
 
             <tbody>
                 <tr>
-                    <td>desing</td>
+                    <td rowspan="3">desing</td>
+                    <!-- rowspan faz saber quantas linhas corresponde -->
                     <td>indesing</td>
                     <td>R$ 1.000,00</td>
                 </tr>
 
                 <tr>
-                    <td>desing</td>
+                    
                     <td>fotoshop</td>
                     <td>R$ 1.000,00</td>
                 </tr>
 
                 <tr>
-                    <td>desing</td>
+                    
                     <td>ilusatrador</td>
                     <td>R$ 1.000,00</td>
                 </tr>
 
                 <tr>
-                    <td>developer</td>
+                    <td rowspan="4">developer</td>
                     <td>html</td>
                     <td>R$ 1.000,00</td>
                 </tr>
 
                 <tr>
-                    <td>developer</td>
+                    
                     <td>css</td>
                     <td>R$ 1.000,00</td>
                 </tr>
 
                 <tr>
-                    <td>developer</td>
+                    
                     <td>JS</td>
                     <td>R$ 1.000,00</td>
                 </tr>
 
                 <tr>
-                    <td>developer</td>
+                    
                     <td>php</td>
                     <td>R$ 1.000,00</td>
                 </tr>
