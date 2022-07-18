@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Filipe">
+    <title>Estrutura basica</title>
+
+    <style>
+        li ul{ 
+            height: 0;
+            overflow: hidden;
+            /* Tratar um conteudo que excede um padrão */
+        }
+
+        li:hover{
+            background: #ccc;
+        }
+
+        li:hover ul{
+            height: 50px;
+            transition: height .5s;
+            /* Faz uma transição: o que vai transicionar + tempo */
+        }
+    </style>
+
+</head>
+<body>
+    
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2
+            <ul>
+                <li>Item 2.1</li>
+                <li>Item 2.2</li>
+            </ul>
+        </li>
+        <li>Item 3</li>
+    </ul>
+
+    <hr>
+
+    <dl>
+
+        <dt>HTML</dt>
+        <dd>Linguagem de marcção de hypertexto</dd>
+
+        <dt>CSS</dt>
+        <dd>Linguagem para a criação de folhas de estilos</dd>
+
+            
+    </dl>
+
+    <hr>
+
+    <dt>www</dt>
+    <dt>internet</dt>
+    <dd>rede mundial de computadores</dd>
+
+    <dt>Javascrit</dt>
+    <dd>Linguage script para internet</dd>
+    <dd>script para rodar no browser</dd>
+
+
+</body>
+</html>
