@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Filipe">
+        <title>Pagina de exemplo</title>
+
+        <style>
+
+            Div{
+                width: 100px;
+                height: 100px;
+                background-color: orange;
+                transition-property: width, height;
+                transition-duration: .5s, 3s;
+                transition-timing-function: cubic-bezier(.67,-0.38,.5,1.5), linear;
+                /* usar o site cubic-bezier */
+                /* ajusta o tempo da transição */
+                transition-delay: 0s, .8s;
+                /* atrasar o começo da animação */
+            }
+
+            div:hover{
+                width: 500px;
+                height: 400px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Estrutura Basica</h1>
+
+        <div>1</div>
+    </body>
+</html>
