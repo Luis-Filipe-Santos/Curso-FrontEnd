@@ -1,0 +1,109 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> pagina de exemplo estrutura basica </title>
+        <meta charset="utf-8">
+        <meta name="author" content="filipe">
+        <meta name="description" content="descrição bacanuda">
+        <meta name="keywords" content="html5, tecnologia">
+
+        
+    </head>
+    <body>
+        <h1>Exemplo de formulario</h1>
+        
+        <form action="#" method="post" class="formLogin">
+            <fieldset>
+
+                <legend>Dados Pessoais</legend>
+
+                <label>Email</label>
+                <input type="email" required placeholder="Digite um email valido">
+                <!-- placeholder faz aparecer uma dica -->
+                <br>
+                <label>Numero de filhos</label>
+                <input type="number" min="0" max="100">
+                <!-- min e max limitam o número de entrada -->
+
+                <br>
+                <label>Nascimento</label>
+                <input type="date" min="1920-01-30" max="2022-01-30">
+
+                <p>Sexo:</p>
+                <label>
+                    <input type="radio" name="sexo" value="M">
+                    Masculino
+                </label>
+                <!-- Value é o valor entedido pelo sistema -->
+                <label>
+                    <input type="radio" name="sexo" value="F">
+                    Feminino
+                </label>
+                <!-- o que faz o selecionador marcar apenas 1 é o name ser o mesmo -->
+                <br>
+                
+
+                <label>Estado</label>
+                <select name="Estado">
+                    <option value="0">Selecione</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="MG">Minas Gerais</option>                
+                </select>
+                <fieldset>
+
+                    <legend>Área de interesse</legend>  
+
+                    <label><input type="checkbox" name="html" value="html"> HTML</label>
+                    <label><input type="checkbox" name="css" value="html"> CSS</label>
+                    <label><input type="checkbox" name="js" value="html"> JS</label>
+                    <label><input type="checkbox" name="php" value="html"> PHP</label>
+
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Mensagem</legend>
+                    <textarea style = "resize: none" name="msg" cols="30" rows="20" maxlength="240" placeholder="Digite sua mensagem"></textarea>
+                    <!-- maxlength limita a quantidade de caracteres -->
+
+                    <textarea style = "resize: none" name="msg" cols="30" rows="20" readonly>Aqui entrada o texto do contrato que precisa ser aceito</textarea>
+                    <!-- readonly desabilita a edição -->
+                    <label>
+                        <input type="checkbox" required>Li e aceito
+                    </label>
+                </fieldset>
+
+                <br>
+                <input type="submit" value="mandar">
+                <!-- Envia o formulario -->
+                <input type="button" value="button">
+                <!-- pode ser usado pelo JS -->
+                <input type="reset" value="reset">
+                <!-- limpa o formulario -->
+
+                <input type="range" min="0" max="10" step="2" >
+                <!-- cria uma rolagem -->
+                <input type="color">
+                <!--  -->
+                <input type="time">
+                <!--  -->
+
+                <select size="3" multiple>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+
+                </select>
+
+
+            </fieldset>
+           
+        </form>
+        
+    </body>
+</html>
