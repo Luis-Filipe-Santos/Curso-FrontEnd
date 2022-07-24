@@ -20,8 +20,9 @@
                 <img src="avatar.jpg" alt="texto qualquer">
             </a>
             <h1 class="main-header-title">
-                Trabalho simulado de <br> <strong> Luis Filipe Santos Silva</strong>,<br> um cara apenas.<br> Retirado de <a href="http://html5up.net." class="main-header-link">html5up.net.</a>
+                Trabalho simulado de <br> <strong> Luis Filipe Santos Silva</strong>,<br> um cara apenas.
             </h1>
+            <P><br> Retirado de <a href="http://html5up.net." class="main-header-link">html5up.net.</a></P>
         </header>    
         <main class="main-content">
 
@@ -165,7 +166,9 @@
             </section>
 
             <blockquote cite="http://developer.mozilla.org">
-                Esta é uma citação tirada da Mozilla Developer Center.
+                <p>Esta é uma citação tirada da Mozilla Developer Center.</p>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quos dolore voluptatum omnis minima soluta molestiae veniam cupiditate inventore fugit ut autem fugiat voluptatem incidunt itaque temporibus adipisci, accusamus distinctio.</p>
             </blockquote>
 
             <p>According to Mozilla's website,
@@ -173,14 +176,11 @@
             </p>
 
             <h4>Preformatado</h4>
-
-            <pre>
-                <code>
+            <pre><code>
     &lt;script&gt;
         alert('oi');
     &lt;/script&gt;
-                </code>
-            </pre>
+            </code></pre>
 
             <h4>Listas</h4>
 
@@ -361,33 +361,35 @@
 
            <h5>Forms</h5>
            
-            <label for="name">Nome </label>
-            <input type="text" name="name" id="name">
+           <form action="#" method="post">
 
-            <label for="email">Email </label>
-            <input type="email" name="email" id="email">
+                <label for="name">Nome </label>
+                <input type="text" name="name" id="name">
 
-            <select>
-                <option value="0">Selecione</option>
-                <option value="1">HTML</option>
-                <option value="2">CSS</option>
-                <option value="3">PHP</option>
-                <option value="4">JS</option>
+                <label for="email">Email </label>
+                <input type="email" name="email" id="email">
 
-            </select>
-            
-                <label><input type="radio" value="baixa" name="prioridade">Baixa Prioridade</label>
-                <label><input type="radio" value="media" name="prioridade">Média Prioridade</label>
-                <label><input type="radio" value="alta" name="prioridade">Alta Prioridade</label>
+                <select>
+                    <option value="0">Selecione</option>
+                    <option value="1">HTML</option>
+                    <option value="2">CSS</option>
+                    <option value="3">PHP</option>
+                    <option value="4">JS</option>
 
-                <label><input type="checkbox" name="copy" value="1">Envie-me uma cópia</label>
-                <label><input type="checkbox" name="human" value="1">Sou um humano</label>
-             
-            <label for="msg">Mensagem:</label>    
-            <textarea placeholder="digite um mensagem" id="msg"></textarea>
+                </select>
+                
+                    <label><input type="radio" value="baixa" name="prioridade">Baixa Prioridade</label>
+                    <label><input type="radio" value="media" name="prioridade">Média Prioridade</label>
+                    <label><input type="radio" value="alta" name="prioridade">Alta Prioridade</label>
 
-            <input type="submit" class="button-default" value="Enviar" >
-            <input type="reset" class="button-default button-default-stroke" value="limpar" >
+                    <label><input type="checkbox" name="copy" value="1">Envie-me uma cópia</label>
+                    <label><input type="checkbox" name="human" value="1">Sou um humano</label>
+                
+                <label for="msg">Mensagem:</label>    
+                <textarea placeholder="digite um mensagem" id="msg"></textarea>
+
+                <input type="submit" class="button-default" value="Enviar" >
+                <input type="reset" class="button-default button-default-stroke" value="limpar" >
             </form>
 
         </section>
@@ -427,8 +429,8 @@
         <footer class="main-footer">
 
             <ul class="ul-coins">
-                <a href="#" class="icon-link"><i class="fab fa-twitter"></a></i>
-                <a href="#" class="icon-link"><i class="fab fa-facebook-square"></a></i>
+                <li><a href="#" class="icon-link"><span class="hidden">Twitter</span><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" class="icon-link"><span class="hidden">Facebook</span><i class="fab fa-facebook-square"></i></a></li>
             </ul>
             <ul class="copyright">
                 <li>Untitled</li>|<li>Design <a href="http://html5up.net">HTML5 UP</a></li>
