@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Filipe">
+        <title>Document</title>
+
+
+        <style>
+
+            a{
+                display: block;
+                margin: 10px;   
+                position: relative;
+            }
+
+            a img{
+                width: 100%;
+                display: block;
+            }
+
+           a:before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            transition: all .5s;
+           }
+
+           a:hover:before{
+            content: '';
+            background: rgba(0, 0, 0, .5);
+           }
+
+        </style>
+
+    </head>
+    <body>
+        <h1>Estrutura Básica</h1>
+
+        <section>
+
+            <article>
+                <a href="#">
+                    <img src="/thumbs/01.jpg" alt="">
+                </a>
+            </article>
+            <article>
+                <a href="#">
+                    <img src="/thumbs/02.jpg" alt="">
+                </a>
+            </article>
+            <article>
+                <a href="#">
+                    <img src="/thumbs/03.jpg" alt="">
+                </a>
+            </article>
+            <article>
+                <a href="#">
+                    <img src="/thumbs/04.jpg" alt="">
+                </a>
+            </article>
+            <article>
+                <a href="#">
+                    <img src="/thumbs/05.jpg" alt="">
+                </a>
+            </article>
+            <article>
+                <a href="#">
+                    <img src="/thumbs/06.jpg" alt="">
+                </a>
+            </article>
+        </section>
+
+    </body>
+</html>
