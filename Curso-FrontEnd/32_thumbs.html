@@ -10,6 +10,11 @@
 
         <style>
 
+            body{
+                font-family: sans-serif;
+
+            }
+
             a{
                 display: block;
                 margin: 10px;   
@@ -35,6 +40,23 @@
            a:hover:before{
             content: '';
             background: rgba(0, 0, 0, .5);
+           }
+
+           a::after{
+            opacity: 0;
+           }
+
+           a:hover::after{
+            content: 'Veja mais';
+            display: block;
+            position: absolute;
+            border: 3px solid white;
+            color: white;   
+            top: 50%;
+            left: 50%;
+            padding: 10px 20px;
+            transform: translate(-50%, -50%);
+            opacity: 1;
            }
 
         </style>
