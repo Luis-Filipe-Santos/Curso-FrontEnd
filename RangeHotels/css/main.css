@@ -1,0 +1,32 @@
+@charset "utf-8"
+
+html{
+    font-family: sans-serif
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "oxygen", arial;
+}
+
+.top-nav{
+    background: #612674;
+    text-align: center;
+}
+
+.top-nav ul{
+    margin: 0;
+    padding: 1em 0;
+    list-style: none;
+}
+
+.top-nav a{
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+}
+
+.top-nav a:hover{
+    background: #7c3792;
+}
+
