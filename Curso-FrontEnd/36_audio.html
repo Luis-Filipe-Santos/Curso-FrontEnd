@@ -11,6 +11,15 @@
 
     </head>
     <body>
-        <h1>Estrutura Básico</h1>
+        <h1>Audio</h1>
+
+        <audio  controls autoplay loop>
+            <!-- Controls faz aparecer os controles do audio  -->
+            <!-- Autoplay inicia assim que a pagina carregar/ mas os browsers bloqueiam-->
+            <!-- loop faz tocar em loop -->
+            <source src="/media/mozart_trompa.mp3" type="audio/mp3">
+            <source src="/media/mozart_trompa.ogg" type="audio/ogg">
+            <p>Seu browser não suporta esse recurso</p>
+        </audio>
     </body>
 </html>
